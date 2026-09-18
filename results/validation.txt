@@ -1,0 +1,7 @@
+CUDA IMAGE PROCESSING VALIDATION
+--------------------------------
+Input images : 120
+Output images: 120
+--------------------------------
+Validation: SUCCESS
+All 120 input images have matching outputs.

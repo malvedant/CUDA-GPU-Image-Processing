@@ -1,0 +1,32 @@
+============================================
+CUDA GPU IMAGE PROCESSING PROJECT
+============================================
+GPU: NVIDIA L4
+Compute Capability: 8.9
+Input Directory: "input"
+Output Directory: "output"
+Gaussian Sigma: 1.5
+
+Images found: 120
+Processed 10/120 images
+Processed 20/120 images
+Processed 30/120 images
+Processed 40/120 images
+Processed 50/120 images
+Processed 60/120 images
+Processed 70/120 images
+Processed 80/120 images
+Processed 90/120 images
+Processed 100/120 images
+Processed 110/120 images
+Processed 120/120 images
+
+============================================
+PROCESSING COMPLETE
+============================================
+Images processed: 120
+Image dimensions: 128 x 128
+GPU pipeline time: 1947.831 ms
+Average GPU pipeline time/image: 16.232 ms
+Output format: PGM
+Status: SUCCESS

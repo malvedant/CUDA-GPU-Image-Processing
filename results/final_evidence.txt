@@ -1,0 +1,31 @@
+CUDA IMAGE PROCESSING PROJECT
+=============================
+
+Project: CUDA GPU Image Processing Pipeline
+Operations: RGB-to-Grayscale + 5x5 Gaussian Blur
+Dataset: 120 synthetic RGB images
+Image Size: 128x128
+GPU: NVIDIA L4
+CUDA Compute Capability: 8.9
+
+EXECUTION RESULT
+----------------
+Status: SUCCESS
+
+VALIDATION RESULT
+-----------------
+Input images : 120
+Output images: 120
+Validation: SUCCESS
+All 120 input images have matching outputs.
+
+CUDA KERNELS
+------------
+1. grayscaleKernel
+2. gaussianBlurKernel
+
+GPU PROCESSING
+--------------
+CUDA kernels were used to process the image data on the GPU.
+Device memory was allocated and reused across the image batch.
+CUDA events were used for GPU timing.
