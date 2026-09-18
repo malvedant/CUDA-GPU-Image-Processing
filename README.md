@@ -8,8 +8,8 @@ custom NVIDIA CUDA kernels.
 The program processes 120 RGB images and performs two image-processing
 operations on the GPU:
 
-1. RGB-to-grayscale conversion
-2. Gaussian blur
+1. RGB-to-grayscale conversion.
+2. Gaussian blur.
 
 The project was developed from scratch using CUDA C++ and performs the
 core image-processing operations on the NVIDIA GPU.
